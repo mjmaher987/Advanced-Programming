@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" stylesheets="@../css/abc.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.View.MainMenuController">
+   <children>
+      <Button fx:id="duelbtn" layoutX="402.0" layoutY="212.0" mnemonicParsing="false" onAction="#startGame" prefHeight="25.0" prefWidth="195.0" text="Start New Game" />
+      <Button fx:id="deckbtn" layoutX="402.0" layoutY="300.0" mnemonicParsing="false" onAction="#gotoSettings" prefHeight="25.0" prefWidth="195.0" text="Settings" />
+      <Button fx:id="profilebtn" layoutX="402.0" layoutY="344.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="195.0" text="Profile" />
+      <Button fx:id="backToLoginPagebtn" layoutX="402.0" layoutY="392.0" mnemonicParsing="false" onAction="#back" prefHeight="25.0" prefWidth="195.0" text="Back" />
+      <Button fx:id="scoreboardBtn" layoutX="403.0" layoutY="257.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="195.0" text="ScoreBoard" />
+      <Label fx:id="userShow" alignment="CENTER" contentDisplay="CENTER" layoutX="368.0" layoutY="67.0" prefHeight="133.0" prefWidth="257.0" />
+   </children>
+</AnchorPane>

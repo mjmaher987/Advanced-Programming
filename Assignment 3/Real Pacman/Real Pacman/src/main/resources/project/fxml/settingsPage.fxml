@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.View.SettingsController">
+   <children>
+      <Label fx:id="lifeLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="844.0" layoutY="199.0" prefHeight="98.0" prefWidth="88.0" textAlignment="CENTER" />
+      <Button fx:id="upButton" layoutX="864.0" layoutY="132.0" mnemonicParsing="false" onAction="#increaseLife" prefHeight="25.0" prefWidth="47.0" text="Up" />
+      <Button fx:id="downButton" layoutX="864.0" layoutY="338.0" mnemonicParsing="false" onAction="#decreaseLife" text="Down" />
+      <Button fx:id="backButton" layoutX="862.0" layoutY="591.0" mnemonicParsing="false" onAction="#back" prefHeight="48.0" prefWidth="52.0" text="Back" />
+      <GridPane fx:id="myBoard" alignment="CENTER" layoutX="28.0" layoutY="31.0" prefHeight="600.0" prefWidth="600.0">
+      </GridPane>
+      <Button fx:id="create" layoutX="709.0" layoutY="591.0" mnemonicParsing="false" onAction="#createMap" prefHeight="48.0" prefWidth="80.0" text="Create" />
+      <Button fx:id="save" layoutX="799.0" layoutY="591.0" mnemonicParsing="false" onAction="#saveMap" prefHeight="48.0" prefWidth="52.0" text="Save" />
+   </children>
+</AnchorPane>

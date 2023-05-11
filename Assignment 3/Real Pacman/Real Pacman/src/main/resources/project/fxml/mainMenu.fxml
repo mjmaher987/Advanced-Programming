@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" stylesheets="@../css/abc.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.View.MainMenuController">
+   <children>
+      <Button fx:id="duelbtn" layoutX="402.0" layoutY="212.0" mnemonicParsing="false" onAction="#duelMenu" prefHeight="25.0" prefWidth="195.0" text="Duel" />
+      <Button fx:id="deckbtn" layoutX="402.0" layoutY="300.0" mnemonicParsing="false" onAction="#deckMenu" prefHeight="25.0" prefWidth="195.0" text="Deck" />
+      <Button fx:id="shopbtn" layoutX="403.0" layoutY="342.0" mnemonicParsing="false" onAction="#shopMenu" prefHeight="25.0" prefWidth="195.0" text="shop" />
+      <Button fx:id="profilebtn" layoutX="403.0" layoutY="385.0" mnemonicParsing="false" onAction="#goToProfile" prefHeight="25.0" prefWidth="195.0" text="Profile" />
+      <Button fx:id="importAndExportbtn" layoutX="403.0" layoutY="429.0" mnemonicParsing="false" onAction="#importAndExportMenu" prefHeight="25.0" prefWidth="195.0" text="ImportAndExport" />
+      <Button fx:id="backToLoginPagebtn" layoutX="402.0" layoutY="474.0" mnemonicParsing="false" onAction="#backToLoginPage" prefHeight="25.0" prefWidth="195.0" text="Back" />
+      <Button fx:id="scoreboardBtn" layoutX="403.0" layoutY="257.0" mnemonicParsing="false" onAction="#scoreBoardPage" prefHeight="25.0" prefWidth="195.0" text="ScoreBoard" />
+   </children>
+</AnchorPane>

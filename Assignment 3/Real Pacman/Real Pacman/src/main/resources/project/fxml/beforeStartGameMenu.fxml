@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.View.BeforeStartGameMenuController">
+   <children>
+      <GridPane fx:id="board" layoutX="97.0" layoutY="22.0" prefHeight="600.0" prefWidth="600.0">
+      </GridPane>
+      <Button fx:id="backButton" layoutX="832.0" layoutY="572.0" mnemonicParsing="false" onAction="#back" prefHeight="50.0" prefWidth="99.0" text="Back" />
+      <Button fx:id="startButton" layoutX="832.0" layoutY="485.0" mnemonicParsing="false" onAction="#start" prefHeight="50.0" prefWidth="99.0" text="Start" />
+      <Button fx:id="previousMapButton" layoutX="832.0" layoutY="395.0" mnemonicParsing="false" onAction="#previousMap" prefHeight="50.0" prefWidth="99.0" text="Previous" />
+      <Button fx:id="nextMapButton" layoutX="832.0" layoutY="306.0" mnemonicParsing="false" onAction="#nextMap" prefHeight="50.0" prefWidth="99.0" text="Next" />
+      <Label fx:id="mapNumberLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="832.0" layoutY="39.0" prefHeight="76.0" prefWidth="99.0" />
+   </children>
+</AnchorPane>

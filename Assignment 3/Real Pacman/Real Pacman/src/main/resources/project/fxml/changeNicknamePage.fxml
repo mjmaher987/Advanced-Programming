@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="context-menu" stylesheets="@../css/abc.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.View.ChangeNicknameController">
+   <children>
+      <Button fx:id="backbtn" layoutX="494.0" layoutY="26.0" mnemonicParsing="false" onAction="#backToProfile" text="back" />
+      <Button fx:id="changeNicknamebtn" layoutX="254.0" layoutY="238.0" mnemonicParsing="false" onAction="#changeNickname" text="Confirm" />
+      <TextField fx:id="newNicknameField" layoutX="198.0" layoutY="149.0" promptText="new nickname" />
+      <Label fx:id="label" layoutX="195.0" layoutY="200.0" prefHeight="21.0" prefWidth="204.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #123;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.View.ScoreboardController">
+   <children>
+      <Button layoutX="238.0" layoutY="29.0" mnemonicParsing="false" onAction="#fillLabel" prefHeight="33.0" prefWidth="125.0" style="-fx-background-color: #222;" text="Show" textFill="#b21010" />
+      <Label fx:id="label" alignment="CENTER" contentDisplay="CENTER" layoutX="221.0" layoutY="127.0" prefHeight="146.0" prefWidth="159.0" textAlignment="CENTER" />
+      <Button fx:id="returnBtn" layoutX="238.0" layoutY="335.0" mnemonicParsing="false" onAction="#returnToMainMenu" prefHeight="24.0" prefWidth="125.0" style="-fx-background-color: #222;" text="return" textFill="#d71515" />
+      <ListView fx:id="listView11" layoutX="200.0" layoutY="100.0" prefHeight="200.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>
